@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/vred"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/block"
+            tools:text="Вред Порока"
+            android:paddingTop="90dp"
+
+            />
+
+        <TextView
+            android:id="@+id/polza"
+            android:background="@drawable/block"
+            android:paddingTop="90dp"
+
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/vred"
+            android:gravity="center"
+            tools:text="Польза Воздержания" />
+
+        <TextView
+            android:id="@+id/metodi"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/vred"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/block"
+            android:gravity="center"
+            android:paddingTop="90dp"
+            tools:text="Методы по борьбе                      с пороком" />
+
+        <TextView
+            android:id="@+id/soveti"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:background="@drawable/block"
+            android:paddingTop="90dp"
+
+            android:layout_below="@+id/polza"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/metodi"
+            android:gravity="center"
+            tools:text="Советы по саморазвитию" />
+
+        <TextView
+            android:id="@+id/dnevnik"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/metodi"
+            android:background="@drawable/block"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            tools:text="Мой дневник"
+            android:gravity="center"
+            android:paddingTop="90dp"
+            />
+
+        <TextView
+            android:id="@+id/pobediteli"
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:background="@drawable/block"
+            android:paddingTop="90dp"
+
+            android:layout_below="@+id/soveti"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/dnevnik"
+            android:gravity="center"
+            tools:text="Дневник победителей АнтиО" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="77dp"
+            android:layout_height="92dp"
+            android:layout_alignStart="@+id/metodi"
+            android:layout_alignTop="@+id/dnevnik"
+            android:layout_alignEnd="@+id/dnevnik"
+            android:layout_alignBottom="@+id/dnevnik"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="51dp"
+            app:srcCompat="@drawable/ic_diary" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="77dp"
+            android:layout_height="92dp"
+            android:layout_alignStart="@+id/pobediteli"
+            android:layout_alignTop="@+id/pobediteli"
+            android:layout_alignEnd="@+id/pobediteli"
+            android:layout_alignBottom="@+id/pobediteli"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="60dp"
+            app:srcCompat="@drawable/ic_winners_cup" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="86dp"
+            android:layout_height="108dp"
+            android:layout_alignStart="@+id/soveti"
+            android:layout_alignTop="@+id/soveti"
+            android:layout_alignBottom="@+id/soveti"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="66dp"
+            app:srcCompat="@drawable/ic_hint" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="91dp"
+            android:layout_height="113dp"
+            android:layout_alignStart="@+id/metodi"
+            android:layout_alignTop="@+id/metodi"
+            android:layout_alignEnd="@+id/metodi"
+            android:layout_alignBottom="@+id/metodi"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="71dp"
+            app:srcCompat="@drawable/ic_sword" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="104dp"
+            android:layout_height="99dp"
+            android:layout_alignStart="@+id/vred"
+            android:layout_alignTop="@+id/vred"
+            android:layout_alignEnd="@+id/vred"
+            android:layout_alignBottom="@+id/vred"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="68dp"
+            app:srcCompat="@drawable/ic_minus" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="117dp"
+            android:layout_height="113dp"
+            android:layout_alignStart="@+id/polza"
+            android:layout_alignTop="@+id/polza"
+            android:layout_alignBottom="@+id/polza"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="65dp"
+            app:srcCompat="@drawable/ic_plus" />
+
+
+    </RelativeLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/navbar_menu"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/bottom_navigation_item_background_colors"
+        app:itemTextColor="@color/bottom_navigation_item_background_colors"/>
+
+</LinearLayout>

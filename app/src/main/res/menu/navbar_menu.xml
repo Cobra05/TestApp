@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main"
+        android:icon="@drawable/ic_webpagehome_85808"
+        android:title="Главная"/>
+    <item
+        android:id="@+id/inform"
+        android:icon="@drawable/ic_information"
+        android:title="Информация"/>
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="Календарь"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Настройки"/>
+
+
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="dayscounter">Дней: 365 </string>
+    <string name="target">Цель: 365 дней</string>
+</resources>
